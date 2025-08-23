@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .main {
+      background: url("https://elegencia-react-ejev.vercel.app/assets/img/bg/hero_bg_1.jpg") no-repeat center/cover;
+      height: 100vh;
+      width: 100%;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .logo h3 {
+      font-size: 20px;
+    }
+
+    .MENU {
+      font-size: 35px;
+      color: #ffd28d;
+      cursor: pointer;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin: 20px 0 100px;
+      list-style: none;
+    }
+
+    li {
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    li:hover {
+      color: #ffd28d;
+    }
+
+    h1 {
+      font-weight: 200;
+      font-size: 50px;
+      text-indent: 200px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      color: #ccc;
+      font-size: 18px;
+      line-height: 25px;
+      margin: 70px 0 0 200px;
+      letter-spacing: 1px;
+    }
+
+    button {
+      background-color: #d1b78f;
+      color: #000;
+      padding: 15px 25px;
+      border: none;
+      font-size: 18px;
+      margin: 50px 0 30px 200px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #212226;
+      color: #fff;
+    }
+
+    marquee {
+      background-color: #212226;
+      color: #fff;
+      font-size: 30px;
+      padding: 10px;
+    }
+
+    .hero {
+      display: flex;
+      background-color: #000;
+    }
+
+    .hero-left {
+      flex: 1;
+      padding: 40px;
+    }
+
+    .hero-left .heading {
+      font-size: 55px;
+      color: #ffd28d;
+      line-height: 70px;
+    }
+
+    .hero-left button {
+      display: block;
+      margin: 50px auto 0;
+      border: 1px solid #ffd28d;
+      background: transparent;
+      color: #ffd28d;
+      padding: 10px 20px;
+    }
+
+    .hero-right img {
+      width: 500px;
+      height: 100VH;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+
+    .hero-right img:hover {
+      transform: scale(0.7);
+    }
+
+    .open {
+      display: flex;
+      background-color: #05161a;
+    }
+
+    .open-left img {
+      width: 100%;
+      height: auto;
+    }
+
+    .open-right {
+      flex: 1;
+      padding: 40px;
+    }
+
+    .open-right h2 {
+      font-size: 50px;
+      font-weight: 300;
+      color: #ffd28d;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .open-right h4 {
+      color: #fff;
+      margin: 15px 0;
+    }
+
+    .food {
+      background-color: #05161a;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .food h5 {
+      font-size: 20px;
+      color: #ffd28d;
+    }
+
+    .food h3 {
+      font-size: 40px;
+      color: #ffd28d;
+      margin: 15px 0;
+    }
+
+    .card5 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      padding: 20px;
+      background-color: #040d10;
+    }
+
+    .card1 {
+      padding: 15px;
+      border: 1px solid #222;
+    }
+
+    .card1 .H1 {
+      color: #ffd28d;
+      font-size: 19px;
+      margin-bottom: 5px;
+    }
+
+    .card1 .SUB1 {
+      color: #ccc;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="main">
+    <div class="container">
+      <div class="logo"><h3>RESERVATIONS</h3></div>
+      <div><img src="https://elegencia-react-ejev.vercel.app/assets/img/logo/logo.png" alt="logo"></div>
+      <div class="MENU"><i class="fa-solid fa-bars"></i></div>
+    </div>
+    <hr>
+
+    <ul>
+      <li>HOME</li>
+      <li>ABOUT</li>
+      <li>MENU</li>
+      <li>CHEF</li>
+      <li>PORTFOLIO</li>
+      <li>BLOG</li>
+      <li>PAGES</li>
+    </ul>
+
+    <h1 style="color:white;">ELEGENCE RETREAT</h1>
+    <h1 style="color:#ffd28d;text-indent:300px;"><i>RESTAURANT</i></h1>
+    <p>
+      Welcome to our restaurant, where culinary artistry <br> meets exceptional dining experiences.  
+      We strive to <br> create a gastronomic haven that tantalizes your taste <br> buds and leaves you with joy.
+    </p>
+    <button>VIEW MORE</button>
+
+    <marquee behavior="scroll" direction="left">
+      Embark on a gastronomic adventure guided by our exquisite dishes • Embark on a gastronomic adventure guided by our exquisite dishes
+    </marquee>
+  </div>
+
+  <div class="hero">
+    <div class="hero-left">
+      <p class="heading">Exquisite Dining <br>Experience Fit for <br>Royalty</p>
+      <p>
+        Welcome to our restaurant, where culinary artistry meets exceptional dining experiences.  
+        We strive to create a gastronomic haven that tantalizes your taste buds and leaves you with unforgettable memories.
+      </p>
+      <button>Discover The Kitchen</button>
+    </div>
+    <div class="hero-right">
+      <img src="https://elegencia-react-ejev.vercel.app/assets/img/about/about_bg.jpg" alt="Dining">
+    </div>
+  </div>
+
+  <div class="open">
+    <div class="open-left">
+      <img src="https://elegencia-react-ejev.vercel.app/assets/img/about/about_open_hour.jpg" alt="Opening Hours">
+    </div>
+    <div class="open-right">
+      <h2>Opening Hours</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Experience fine dining with us.</p>
+      <h4>SUNDAY - THURSDAY: 11:30AM - 11PM</h4>
+      <h4>FRIDAY & SATURDAY: 11:30AM - 12AM</h4>
+      <button>Reservation</button>
+    </div>
+  </div>
+
+  <div class="food">
+    <h5>Food Showcase</h5>
+    <h3>Food Items</h3>
+
+    <marquee style="height:300px;">
+      <img src="https://elegencia-react-ejev.vercel.app/assets/img/portfolio/portfolio_1.jpg" alt="Food">
+      <img src="https://elegencia-react-ejev.vercel.app/assets/img/portfolio/portfolio_2.jpg" alt="Food">
+      <img src="https://elegencia-react-ejev.vercel.app/assets/img/portfolio/portfolio_3.jpg" alt="Food">
+      <img src="https://elegencia-react-ejev.vercel.app/assets/img/portfolio/portfolio_4.jpg" alt="Food">
+      <img src="https://elegencia-react-ejev.vercel.app/assets/img/portfolio/portfolio_5.jpg" alt="Food">
+    </marquee>
+
+    <h5>Appetizers</h5>
+    <h3>Our Specials</h3>
+
+    <div class="card5">
+      <div class="card1">
+        <div class="H1"><u>SPAGHETTI ALLA CARBONARA</u> - $49</div>
+        <div class="SUB1">Extra fresh juice served</div>
+      </div>
+      <div class="card1">
+        <div class="H1"><u>PENNE ARRABIATA</u> - $39</div>
+        <div class="SUB1">Spicy Italian pasta</div>
+      </div>
+       <div class="card1">
+        <div class="H1"><u>SPAGHETTI ALLA CARBONARA</u> - $49</div>
+        <div class="SUB1">Extra fresh juice served</div>
+      </div>
+      <div class="card1">
+        <div class="H1"><u>PENNE ARRABIATA</u> - $39</div>
+        <div class="SUB1">Spicy Italian pasta</div>
+      </div>
+      <div class="card1">
+        <div class="H1"><u>SPAGHETTI ALLA CARBONARA</u> - $49</div>
+        <div class="SUB1">Extra fresh juice served</div>
+      </div>
+      <div class="card1">
+        <div class="H1"><u>PENNE ARRABIATA</u> - $39</div>
+        <div class="SUB1">Spicy Italian pasta</div>
+      </div>
+      <div class="card1">
+        <div class="H1"><u>SPAGHETTI ALLA CARBONARA</u> - $49</div>
+        <div class="SUB1">Extra fresh juice served</div>
+      </div>
+      <div class="card1">
+        <div class="H1"><u>PENNE ARRABIATA</u> - $39</div>
+        <div class="SUB1">Spicy Italian pasta</div>
+      </div>
+    </div>
+         
+
+
+    <button>View More</button>
+  </div>
+
+</body>
+</html>
