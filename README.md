@@ -28,3 +28,7 @@ Built using **HTML**, **CSS**, and **Font Awesome**, the project emphasizes resp
 ![Home Section](https://elegencia-react-ejev.vercel.app/assets/img/bg/hero_bg_1.jpg)  
 ![Food Showcase](https://elegencia-react-ejev.vercel.app/assets/img/portfolio/portfolio_1.jpg)  
 
+---
+
+## 🎥 Project Demo
+[▶️ Watch the Demo Video](https://github.com/Prajnapunya09/Elegance_Retreat/blob/main/output%20vedio(elegance%20%20restaurent).mp4)
