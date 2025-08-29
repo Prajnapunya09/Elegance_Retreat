@@ -31,4 +31,4 @@ Built using **HTML**, **CSS**, and **Font Awesome**, the project emphasizes resp
 ---
 
 ## 🎥 Project Demo
-[▶️ Watch the Demo Video](https://github.com/Prajnapunya09/Elegance_Retreat/blob/main/output%20vedio(elegance%20%20restaurent).mp4)
+[▶️ Watch the Demo Video](https://github.com/Prajnapunya09/Elegance_Retreat/blob/main/output%20vedio(eligance).mp4)
