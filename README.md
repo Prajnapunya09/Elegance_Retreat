@@ -9,7 +9,7 @@ Built using **HTML**, **CSS**, and **Font Awesome**, the project emphasizes resp
 
 ## ✨ Features
 -  **Home & About Section** – Introduces the restaurant and its brand.  
-- **Food Showcase** – Displays special dishes and appetizers.  
+-  **Food Showcase** – Displays special dishes and appetizers.  
 - **Reservation Section** – Shows opening hours and allows table bookings.  
 - **Responsive Layout** – Optimized for desktop and mobile screens.  
 - **Modern Design** – Dark theme, interactive buttons, smooth transitions.  
